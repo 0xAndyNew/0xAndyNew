@@ -1,20 +1,19 @@
 <div align="center">
 
-  <!-- Isometric Artistic Workspace Hero Illustration -->
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700" alt="Artistic Isometric Workspace" />
+  <!-- Cinematic Isometric Hero -->
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700" alt="Workspace Animation" />
 
   <br/><br/>
 
   <!-- Dynamic Typing Header -->
   <a href="https://github.com/0xAndyNew">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=620&height=50&lines=0xAndyNew+%E2%80%A2+Systems+%26+Infrastructure+Architect;Automating+Linux%2C+Clouds+%26+High-Availability+Networks;Hardening+Security+%E2%80%A2+Orchestrating+Containers" alt="Typing Header" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=25&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=620&height=55&lines=Hi%2C+I'm+Andy+(0xAndyNew)+%E2%9A%A1;Systems+%26+Infrastructure+Engineer;Linux+Hardening+%E2%80%A2+Mail+Clusters+%E2%80%A2+DevOps;Automating+High-Availability+Environments" alt="Typing Terminal" />
   </a>
 
   <p align="center">
-    <em>"Architecting resilient systems, optimizing uptime, and hardening enterprise infrastructure."</em>
+    <strong>Systems Administrator & Infrastructure Specialist</strong> dedicated to building high-uptime, zero-trust architectures and automated cloud/server workflows.
   </p>
 
-  <!-- Clean Contact & Identity Badges -->
   <p align="center">
     <a href="mailto:179321164+0xAndyNew@users.noreply.github.com">
       <img src="https://img.shields.io/badge/Direct_Mail-179321164+0xAndyNew-38BDF8?style=for-the-badge&logo=minutemailer&logoColor=white" alt="Email" />
@@ -22,90 +21,91 @@
     <a href="https://github.com/0xAndyNew">
       <img src="https://img.shields.io/badge/Identity-0xAndyNew-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
     </a>
-    <img src="https://komarev.com/ghpvc/?username=0xAndyNew&label=TOTAL_VIEWS&style=for-the-badge&color=38bdf8" alt="Views" />
+    <img src="https://komarev.com/ghpvc/?username=0xAndyNew&label=PROFILE_VIEWS&style=for-the-badge&color=38bdf8" alt="Views" />
   </p>
 
 </div>
 
 ---
 
-### 🗺️ Production Infrastructure Architecture
+### 💻 System Overview
 
-```mermaid
-flowchart TD
-    subgraph PERIMETER["🌐 Perimeter & Ingress Layer"]
-        CF["Cloudflare DNS & Edge Protection"] -->|HTTPS / TLS 1.3| NGINX["Nginx Reverse Proxy & Load Balancer"]
-        CERT["Certbot / Let's Encrypt"] -.->|Auto SSL Renewal Pipeline| NGINX
-    end
-
-    subgraph CORE["🐧 Linux Core & Workloads (CentOS / RHEL / Ubuntu)"]
-        NGINX -->|Proxy Pass| ZIMBRA["Zimbra Mail Cluster (SMTP / IMAP / Webmail)"]
-        NGINX -->|Routing| DOCKER["Docker Containers & Microservices"]
-        SCRIPTS["Bash & Python Automation Engines"] -.->|Cron & Daemons| ZIMBRA
-        SCRIPTS -.->|Maintenance Tasks| DOCKER
-    end
-
-    subgraph SECURITY["🛡️ Perimeter Security & Defense"]
-        FW["Firewall (IPTables / UFW)"] --- CORE
-        VPN["WireGuard VPN Bastion"] -->|Zero-Trust Admin Tunnel| CORE
-    end
+```bash
+andy@0xAndyNew:~$ neofetch --profile
+-----------------------------------
+OS          : Linux Enterprise (CentOS / RHEL / Ubuntu Hardened)
+Role        : Systems Administrator & Infrastructure Engineer
+Core Stack  : Linux, Bash, Python, Zimbra, Nginx, Docker, OpenSSL
+Specialties : Mail Infrastructure • SSL/TLS Auto-Lifecycle • Server Hardening
+Security    : Zero-Trust Perimeter • WireGuard VPN • IPTables Firewall
+Uptime      : 99.999% High-Availability Target
+Location    : Vietnam 🇻🇳
 ```
 
 ---
 
-### 📊 Engineering Domain & Workload Distribution
+### 🚀 Production Highlights & Core Engineering
 
-```mermaid
-pie title Infrastructure & Engineering Allocation
-    "Linux Systems Administration & Tuning" : 35
-    "Automation & Scripting (Bash / Python / Cron)" : 25
-    "Enterprise Mail & SSL (Zimbra / Postfix / PKI)" : 20
-    "DevOps & Security (Docker / WireGuard / Firewall)" : 20
-```
+<table width="100%">
+  <tr>
+    <td width="33%" valign="top">
+      <h4 align="center">📬 Enterprise Mail Infrastructure</h4>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Focus-High_Availability-FF6600?style=flat-square" />
+      </p>
+      <ul>
+        <li>Triển khai & quản trị cụm máy chủ <strong>Zimbra Collaboration</strong>, Postfix MTA.</li>
+        <li>Cấu hình tối ưu bản ghi DNS: <strong>SPF, DKIM, DMARC</strong> phòng chống giả mạo email.</li>
+        <li>Tối ưu hiệu năng I/O lưu trữ, cơ chế backup tự động và phân vùng hộp thư dung lượng lớn.</li>
+      </ul>
+    </td>
+    <td width="33%" valign="top">
+      <h4 align="center">🔐 Automated PKI & SSL Engine</h4>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Focus-Zero_Downtime-003A70?style=flat-square" />
+      </p>
+      <ul>
+        <li>Quy trình tự động hóa 100% gia hạn chứng chỉ <strong>Let's Encrypt / Certbot</strong> không gián đoạn dịch vụ.</li>
+        <li>Kịch bản Bash tự động triển khai chứng chỉ vào <strong>Nginx, Zimbra Core</strong> và dịch vụ web.</li>
+        <li>Xác thực chuỗi chứng chỉ (Chain Validation), cấu hình bảo mật tiêu chuẩn <strong>TLS 1.3</strong>.</li>
+      </ul>
+    </td>
+    <td width="33%" valign="top">
+      <h4 align="center">🛡️ Hardened Linux & Cloud Perimeter</h4>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Focus-Zero_Trust-2496ED?style=flat-square" />
+      </p>
+      <ul>
+        <li>Gia cố bảo mật máy chủ (Server Hardening), quản lý phân quyền SSH Bastion trên <strong>CentOS, RHEL, Ubuntu</strong>.</li>
+        <li>Tường lửa <strong>IPTables/UFW</strong>, thiết lập đường hầm VPN riêng tư <strong>WireGuard</strong>.</li>
+        <li>Đóng gói <strong>Docker</strong> microservices, proxy ngược cân bằng tải và bảo vệ bởi <strong>Cloudflare</strong>.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### 🎛️ Technical Competencies & Proficiency
-
-| Engineering Domain | Execution Index | Core Responsibilities & Tooling |
-| :--- | :---: | :--- |
-| **Linux Systems Engineering** | `████████████████████` 100% | Kernel Hardening, SSH Bastions, CentOS, RHEL, Ubuntu |
-| **PKI & Certificate Automation** | `████████████████████` 100% | Let's Encrypt automated renewal, OpenSSL, TLS 1.3 |
-| **Automation & Shell Scripting** | `██████████████████░░` 90% | Production Bash pipelines, Python sysadmin daemons |
-| **Enterprise Mail Infrastructure** | `█████████████████░░░` 85% | Zimbra Collaboration Suite, Postfix, SPF/DKIM/DMARC |
-| **Network Security & Firewalls** | `█████████████████░░░` 85% | WireGuard VPN, IPTables, Nginx Reverse Proxy |
-| **Containers & Deployment** | `████████████████░░░░` 80% | Docker containerization, GitHub Actions CI/CD |
-
----
-
-### 🎨 Isometric Tech Arsenal
+### 🛠️ Tech Stack & Tooling
 
 <div align="center">
-  <p><em>Curated technologies & toolchains powering the infrastructure:</em></p>
+  <p><em>Curated technologies & toolchains powering production environments:</em></p>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=linux,ubuntu,debian,bash,python,docker,nginx,cloudflare,git,githubactions,ansible,openssl&perline=6&theme=dark" alt="Isometric Tech Icons" />
+    <img src="https://skillicons.dev/icons?i=linux,ubuntu,debian,bash,python,docker,nginx,cloudflare,git,githubactions,ansible,openssl&perline=12&theme=dark" alt="Tech Stack Icons" />
   </a>
 </div>
 
 ---
 
-### 📈 Activity & Telemetry
+### 📈 Contribution & Activity Timeline
 
 <div align="center">
   <!-- 3D Area Wave Activity Graph -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=0xAndyNew&theme=tokyo-night&bg_color=0d1117&color=38bdf8&line=38bdf8&point=ffffff&area=true&hide_border=false&border_radius=12" width="100%" alt="Activity Wave Graph" />
 </div>
 
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=0xAndyNew&show_icons=true&theme=tokyonight&hide_border=false&border_radius=12&border_color=38bdf8&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8&bg_color=0d1117" height="170" alt="Stats" />
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xAndyNew&layout=compact&theme=tokyonight&hide_border=false&border_radius=12&border_color=38bdf8&title_color=38bdf8&text_color=94a3b8&bg_color=0d1117" height="170" alt="Top Languages" />
-</div>
-
 ---
 
 <div align="center">
-  <sub>Designed with precision for <strong>0xAndyNew</strong> • Powered by Linux & Open Source</sub>
+  <sub>⚡ Designed with precision for <strong>0xAndyNew</strong> • Production-Ready Infrastructure & DevOps</sub>
 </div>
