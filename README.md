@@ -29,25 +29,52 @@
 
 ---
 
-### 🏛️ Infrastructure & Engineering Focus
+### 🗺️ Production Infrastructure Architecture
 
-```yaml
-architect: "0xAndyNew"
-domain: "Infrastructure & Systems Operations"
-operating_philosophy:
-  uptime_target: "99.999%"
-  security_model: "Zero Trust & Least Privilege"
-  workflow: "Automate everything that runs more than once"
+```mermaid
+flowchart TD
+    subgraph PERIMETER["🌐 Perimeter & Ingress Layer"]
+        CF["Cloudflare DNS & Edge Protection"] -->|HTTPS / TLS 1.3| NGINX["Nginx Reverse Proxy & Load Balancer"]
+        CERT["Certbot / Let's Encrypt"] -.->|Auto SSL Renewal Pipeline| NGINX
+    end
+
+    subgraph CORE["🐧 Linux Core & Workloads (CentOS / RHEL / Ubuntu)"]
+        NGINX -->|Proxy Pass| ZIMBRA["Zimbra Mail Cluster (SMTP / IMAP / Webmail)"]
+        NGINX -->|Routing| DOCKER["Docker Containers & Microservices"]
+        SCRIPTS["Bash & Python Automation Engines"] -.->|Cron & Daemons| ZIMBRA
+        SCRIPTS -.->|Maintenance Tasks| DOCKER
+    end
+
+    subgraph SECURITY["🛡️ Perimeter Security & Defense"]
+        FW["Firewall (IPTables / UFW)"] --- CORE
+        VPN["WireGuard VPN Bastion"] -->|Zero-Trust Admin Tunnel| CORE
+    end
 ```
 
-| Area | Architecture & Tooling |
-| :--- | :--- |
-| 🐧 **Operating Systems & Kernel** | Linux Hardening, CentOS / RHEL, Ubuntu Server, Debian, Process & Memory Tuning |
-| 📬 **Enterprise Mail & Proxy** | Zimbra Collaboration Suite, Postfix MTA, Nginx High-Concurrency Reverse Proxy |
-| 🔐 **PKI & Certificate Automation** | Let's Encrypt automated lifecycle, Certbot headless cron, OpenSSL, TLS 1.3 |
-| ⚡ **Scripting & Tooling** | Bash automation pipelines, Python sysadmin scripts, Cron daemons |
-| 🐳 **Containers & CI/CD** | Docker microservices, GitHub Actions automated deployment pipelines |
-| 🛡️ **Network Perimeter** | Firewall (IPTables/UFW), WireGuard VPN tunnels, Cloudflare Edge & DDoS shielding |
+---
+
+### 📊 Engineering Domain & Workload Distribution
+
+```mermaid
+pie title Infrastructure & Engineering Allocation
+    "Linux Systems Administration & Tuning" : 35
+    "Automation & Scripting (Bash / Python / Cron)" : 25
+    "Enterprise Mail & SSL (Zimbra / Postfix / PKI)" : 20
+    "DevOps & Security (Docker / WireGuard / Firewall)" : 20
+```
+
+---
+
+### 🎛️ Technical Competencies & Proficiency
+
+| Engineering Domain | Execution Index | Core Responsibilities & Tooling |
+| :--- | :---: | :--- |
+| **Linux Systems Engineering** | `████████████████████` 100% | Kernel Hardening, SSH Bastions, CentOS, RHEL, Ubuntu |
+| **PKI & Certificate Automation** | `████████████████████` 100% | Let's Encrypt automated renewal, OpenSSL, TLS 1.3 |
+| **Automation & Shell Scripting** | `██████████████████░░` 90% | Production Bash pipelines, Python sysadmin daemons |
+| **Enterprise Mail Infrastructure** | `█████████████████░░░` 85% | Zimbra Collaboration Suite, Postfix, SPF/DKIM/DMARC |
+| **Network Security & Firewalls** | `█████████████████░░░` 85% | WireGuard VPN, IPTables, Nginx Reverse Proxy |
+| **Containers & Deployment** | `████████████████░░░░` 80% | Docker containerization, GitHub Actions CI/CD |
 
 ---
 
