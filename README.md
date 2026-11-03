@@ -12,7 +12,7 @@
 
   <p align="center">
     <strong>Systems Administrator & Cloud Infrastructure Engineer</strong><br/>
-    Chuyên sâu về quản trị hệ thống Linux, kiến trúc máy chủ chịu tải cao, tự động hóa hạ tầng và an toàn thông tin mạng.
+    Specializing in Linux server management, high-availability architecture, infrastructure automation, and network security hardening.
   </p>
 
   <!-- Status & Quick Badges -->
@@ -44,8 +44,8 @@ andy@0xAndyNew:~$ cat /etc/profile.d/vision.sh
 # -----------------------------------------------------------------------
 ```
 
-* **Định hướng chuyên môn:** Tập trung phát triển trở thành **Senior Infrastructure & Cloud Architect**, chuyên trách thiết kế và vận hành các hạ tầng máy chủ quy mô lớn, chuyển dịch mô hình vận hành thủ công sang hạ tầng tự động hóa (Infrastructure as Code - IaC) và container hóa.
-* **Lĩnh vực cốt lõi:** Quản trị nhân Linux (CentOS/RHEL/Ubuntu/Debian), triển khai hạ tầng email doanh nghiệp chịu tải cao (Zimbra Collaboration), xây dựng pipeline tự động hóa vòng đời chứng chỉ số PKI/SSL, tối ưu hóa mạng bảo mật và phòng thủ chu vi máy chủ.
+* **Career Direction:** Aiming toward **Senior Infrastructure & Cloud Architect**, focusing on architecting and orchestrating resilient, production-grade server fleets, transitioning manual operations into Infrastructure as Code (IaC), and containerized microservices.
+* **Core Competencies:** Linux kernel tuning & hardening (CentOS / RHEL / Ubuntu / Debian), high-availability enterprise mail clusters (Zimbra Collaboration / Postfix), zero-downtime PKI/SSL automated certificate lifecycles, and perimeter network defense.
 
 ---
 
