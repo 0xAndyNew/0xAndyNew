@@ -49,7 +49,7 @@ andy@0xAndyNew:~$ cat /etc/profile.d/vision.sh
 
 ---
 
-### 🎛️ Comprehensive Technology Matrix
+### 🎛️ Technical Skills & Competencies
 
 <table width="100%">
   <tr>
@@ -114,95 +114,15 @@ andy@0xAndyNew:~$ cat /etc/profile.d/vision.sh
 
 ---
 
-### 🚀 Production Solutions & Engineering Highlights
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>📬 01. Enterprise Mail Infrastructure & Deliverability</h4>
-      <p><em>Xây dựng và bảo trì hạ tầng thư điện tử doanh nghiệp độ sẵn sàng cao.</em></p>
-      <ul>
-        <li><strong>Nền tảng:</strong> Triển khai cụm máy chủ Zimbra Collaboration Suite và Postfix trên Linux Server.</li>
-        <li><strong>Bảo mật danh tiếng tên miền:</strong> Cấu hình nghiêm ngặt các cơ chế xác thực bản ghi SPF, ký số DKIM tự động và thiết lập chính sách DMARC chống giả mạo email lừa đảo.</li>
-        <li><strong>Hiệu năng & Sao lưu:</strong> Phân bổ I/O ổ đĩa, thiết lập kịch bản sao lưu nóng các hòm thư dung lượng lớn và giảm thiểu tỷ lệ gián đoạn hoạt động.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🔐 02. Zero-Downtime SSL/TLS Automation Pipeline</h4>
-      <p><em>Tự động hóa hoàn toàn vòng đời chứng chỉ số bảo mật cấp cao.</em></p>
-      <ul>
-        <li><strong>Tự động hóa đầu cuối:</strong> Xây dựng kịch bản Bash kết nối trực tiếp Let's Encrypt / Certbot để gia hạn chứng chỉ SSL định kỳ không cần thao tác tay.</li>
-        <li><strong>Tích hợp đa dịch vụ:</strong> Triển khai tự động chứng chỉ mới vào Nginx Reverse Proxy và Zimbra Core Keystore qua các lệnh quản trị chuyên biệt (<code>zmcertmgr deploycrt</code>).</li>
-        <li><strong>Tiêu chuẩn mã hóa:</strong> Cưỡng chế chuẩn TLS 1.3, vô hiệu hóa các thuật toán mã hóa lỗi thời và kiểm soát chuỗi xác thực (Fullchain Verification).</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🛡️ 03. Linux Server Hardening & Zero-Trust Perimeter</h4>
-      <p><em>Gia cố an ninh toàn diện và thiết lập vành đai bảo vệ máy chủ.</em></p>
-      <ul>
-        <li><strong>Tối ưu & Gia cố hệ thống:</strong> Thiết lập chính sách bảo mật Linux Kernel (sysctl), khóa cổng SSH mật khẩu, cấu hình khóa công khai và hạn chế quyền qua Bastion Host.</li>
-        <li><strong>Tường lửa & Phân mảnh mạng:</strong> Xây dựng bảng quy tắc tường lửa IPTables/UFW đa tầng, ngăn chặn quét cổng và tấn công brute-force.</li>
-        <li><strong>Kênh truyền mã hóa:</strong> Triển khai đường hầm mạng riêng ảo WireGuard VPN cho quản trị viên truy cập nội bộ an toàn từ xa.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🐳 04. Containerized Workflows & Reverse Proxy Architecture</h4>
-      <p><em>Hiện đại hóa dịch vụ truyền thống bằng kiến trúc microservices.</em></p>
-      <ul>
-        <li><strong>Đóng gói ứng dụng:</strong> Đóng gói các dịch vụ tiện ích thành Docker Containers giúp cô lập môi trường chạy và dễ dàng mở rộng.</li>
-        <li><strong>Cân bằng tải & Bộ đệm:</strong> Sử dụng Nginx làm Gateway đón đầu lưu lượng, chia tải thông minh và cấu hình cache tối ưu thời gian phản hồi.</li>
-        <li><strong>Tích hợp Cloudflare:</strong> Quản lý bản ghi DNS tập trung, áp dụng Web Application Firewall (WAF) và ngăn ngừa các cuộc tấn công DDoS ở tầng biên.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
----
-
-### 🗺️ Technical Roadmap & Current Focus (2026+)
-
-```text
-[✓] Linux Administration & Enterprise Server Hardening (CentOS / RHEL / Ubuntu)
-[✓] Automated PKI/SSL Deployment Pipelines & Shell Automation
-[✓] Zimbra Mail Clusters & High Deliverability Deliverables
-[➔] Infrastructure as Code (IaC) with Ansible Playbooks & Terraform
-[➔] Container Orchestration with Kubernetes (K8s) & GitOps Workflows
-[➔] Centralized Observability Stack (Prometheus + Grafana + Loki Metrics)
-```
-
----
-
-### ⚙️ Engineering Principles
-
-| Nguyên tắc | Định nghĩa kỹ thuật |
-| :--- | :--- |
-| **Zero Downtime First** | Mọi quy trình cập nhật chứng chỉ, vá lỗi phần mềm và điều chỉnh dịch vụ đều phải được thiết kế để không làm gián đoạn người dùng cuối. |
-| **Automate Everything** | Loại bỏ hoàn toàn các tác vụ lặp lại bằng kịch bản Bash/Python có kiểm soát lỗi chặt chẽ, logging minh bạch và cảnh báo tức thời. |
-| **Defense-in-Depth** | Không phụ thuộc vào một tầng bảo mật duy nhất; kết hợp tường lửa biên, mã hóa đường truyền, cô lập quyền và kiểm tra tính toàn vẹn hệ thống. |
-| **Document as Code** | Mọi cấu hình hạ tầng đều được ghi chép chuẩn chỉ, có tài liệu hướng dẫn tái lập môi trường chi tiết và sẵn sàng khôi phục sau sự cố (DR). |
-
----
-
-### 📈 Activity & Contribution Horizon
-
-<div align="center">
-  <!-- 3D Area Wave Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=0xAndyNew&theme=tokyo-night&bg_color=0d1117&color=38bdf8&line=38bdf8&point=ffffff&area=true&hide_border=false&border_radius=12" width="100%" alt="Activity Wave Graph" />
-</div>
-
----
-
-### 📬 Encrypted Uplink & Communication
+### 📬 Connect With Me
 
 <div align="center">
 
   <a href="mailto:179321164+0xAndyNew@users.noreply.github.com">
-    <img src="https://img.shields.io/badge/GPG_Mail-179321164+0xAndyNew-38BDF8?style=for-the-badge&logo=minutemailer&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Direct_Mail-179321164+0xAndyNew-38BDF8?style=for-the-badge&logo=minutemailer&logoColor=white" alt="Email" />
   </a>
   <a href="https://github.com/0xAndyNew">
-    <img src="https://img.shields.io/badge/Root_Terminal-0xAndyNew-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub_Profile-0xAndyNew-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 
 </div>
