@@ -114,6 +114,101 @@ andy@0xAndyNew:~$ cat /etc/profile.d/vision.sh
 
 ---
 
+### 📊 Git Projects & Activity Analytics
+
+<div align="center">
+  <!-- Dynamic Project Activity Wave Chart -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=0xAndyNew&theme=tokyo-night&bg_color=0d1117&color=38bdf8&line=38bdf8&point=ffffff&area=true&hide_border=false&border_radius=12" width="100%" alt="Git Project Activity Wave" />
+</div>
+
+<br/>
+
+<div align="center">
+  <table border="0" style="border-collapse: collapse; margin: auto;">
+    <tr>
+      <td align="center">
+        <!-- Overall Project Stats -->
+        <img src="https://github-readme-stats.vercel.app/api?username=0xAndyNew&show_icons=true&theme=tokyonight&hide_border=false&border_radius=12&border_color=38bdf8&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8&bg_color=0d1117" height="175" alt="Overall Project Stats" />
+      </td>
+      <td align="center">
+        <!-- Language Distribution Across Projects -->
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xAndyNew&layout=compact&theme=tokyonight&hide_border=false&border_radius=12&border_color=38bdf8&title_color=38bdf8&text_color=94a3b8&bg_color=0d1117" height="175" alt="Top Languages Across Projects" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+### 🚀 Featured Production Repositories
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>📦 <a href="https://github.com/0xAndyNew">certbot-zimbra-autossl</a></h4>
+      <p>Automated Let's Encrypt renewal pipeline & zero-downtime certificate deployment for Zimbra Mail & Nginx Reverse Proxy.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" />
+        <img src="https://img.shields.io/badge/PKI-Certbot-003A70?style=flat-square" />
+        <img src="https://img.shields.io/badge/Status-Production-38BDF8?style=flat-square" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🛡️ <a href="https://github.com/0xAndyNew">linux-server-hardening</a></h4>
+      <p>Automated security baseline hardening scripts for CentOS, RHEL & Ubuntu (Sysctl, SSH Bastion, IPTables ruleset).</p>
+      <p>
+        <img src="https://img.shields.io/badge/OS-Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+        <img src="https://img.shields.io/badge/Security-Zero_Trust-2496ED?style=flat-square" />
+        <img src="https://img.shields.io/badge/Status-Active-00c853?style=flat-square" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>📬 <a href="https://github.com/0xAndyNew">zimbra-high-deliverability</a></h4>
+      <p>Enterprise mail optimization kit: Automated DNS records generator (SPF, DKIM 2048-bit, strict DMARC enforcement).</p>
+      <p>
+        <img src="https://img.shields.io/badge/Mail-Zimbra-FF6600?style=flat-square&logo=minutemailer&logoColor=white" />
+        <img src="https://img.shields.io/badge/DNS-DKIM%20%2F%20DMARC-38BDF8?style=flat-square" />
+        <img src="https://img.shields.io/badge/Status-Tested-blue?style=flat-square" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🐳 <a href="https://github.com/0xAndyNew">docker-infra-stacks</a></h4>
+      <p>Production-ready Docker Compose stacks for Nginx reverse proxy, WireGuard VPN tunnels, and monitoring daemons.</p>
+      <p>
+        <img src="https://img.shields.io/badge/DevOps-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+        <img src="https://img.shields.io/badge/Network-WireGuard-88171A?style=flat-square&logo=wireguard&logoColor=white" />
+        <img src="https://img.shields.io/badge/Status-Maintained-brightgreen?style=flat-square" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🔄 GitOps & Deployment Pipeline
+
+```mermaid
+gitGraph
+    commit id: "v1.0-baseline"
+    branch feature/security-hardening
+    checkout feature/security-hardening
+    commit id: "sysctl-audit"
+    commit id: "iptables-rules"
+    checkout main
+    merge feature/security-hardening id: "merge-hardening" tag: "v1.1"
+    branch feature/auto-ssl-pipeline
+    checkout feature/auto-ssl-pipeline
+    commit id: "certbot-cron-engine"
+    commit id: "zmcertmgr-deploy-hook"
+    checkout main
+    merge feature/auto-ssl-pipeline id: "merge-ssl" tag: "v1.2"
+    commit id: "prod-cluster-live"
+```
+
+---
+
 ### 📬 Connect With Me
 
 <div align="center">
