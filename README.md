@@ -11,8 +11,8 @@
   </a>
 
   <p align="center">
-    <strong>Systems Administrator • Infrastructure Lead • AI Developer</strong><br/>
-    Specializing in end-to-end enterprise mail clusters, Linux server architecture, AI-driven automation scripting, and systems management.
+    <strong>Systems Administrator • Infrastructure Operations Lead • AI & Automation Engineer</strong><br/>
+    Specializing in end-to-end enterprise mail architecture, Linux server hardening, AI-driven automation scripting, and high-availability operations.
   </p>
 
   <!-- Status & Quick Badges -->
@@ -37,7 +37,7 @@
 andy@0xAndyNew:~$ neofetch --profile
 -----------------------------------
 OS          : Linux Enterprise (CentOS • RHEL • Ubuntu • Debian)
-Role        : Systems Administrator • Infrastructure Lead • AI Developer
+Role        : Systems Administrator • Infrastructure Operations Lead • AI Developer
 Core Stack  : Linux, Bash, Python, AI/ML, Zimbra, Nginx, Docker, OpenSSL
 Specialties : Full Mail Infrastructure • AI Automation • Server Hardening
 Management  : High-Availability SLA • Incident Response • Security Audits
@@ -47,7 +47,7 @@ Location    : Vietnam 🇻🇳
 
 ---
 
-### 🛠️ Technical Stack & Tooling
+### 🛠️ Technical Competency & Execution Matrix
 
 <div align="center">
   <p><em>Curated technologies & toolchains powering production environments:</em></p>
@@ -58,59 +58,13 @@ Location    : Vietnam 🇻🇳
 
 <br/>
 
-<table width="100%">
-  <tr>
-    <td width="30%"><strong>📬 End-to-End Enterprise Mail</strong></td>
-    <td width="70%">
-      <img src="https://img.shields.io/badge/Zimbra_Collaboration-FF6600?style=flat-square&logo=minutemailer&logoColor=white" />
-      <img src="https://img.shields.io/badge/Postfix_MTA-00599C?style=flat-square" />
-      <img src="https://img.shields.io/badge/DNS_(SPF_/_DKIM_/_DMARC)-38BDF8?style=flat-square" />
-      <img src="https://img.shields.io/badge/Let's_Encrypt_Auto_SSL-003A70?style=flat-square&logo=letsencrypt&logoColor=white" />
-      <img src="https://img.shields.io/badge/SpamAssassin_/_ClamAV-FFA000?style=flat-square" />
-    </td>
-  </tr>
-  <tr>
-    <td><strong>🐧 Enterprise Linux & Server Systems</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
-      <img src="https://img.shields.io/badge/CentOS-262577?style=flat-square&logo=centos&logoColor=white" />
-      <img src="https://img.shields.io/badge/RHEL-EE0000?style=flat-square&logo=redhat&logoColor=white" />
-      <img src="https://img.shields.io/badge/Ubuntu_Server-E95420?style=flat-square&logo=ubuntu&logoColor=white" />
-      <img src="https://img.shields.io/badge/Debian-A81D33?style=flat-square&logo=debian&logoColor=white" />
-      <img src="https://img.shields.io/badge/Systemd-000000?style=flat-square&logo=gnubash&logoColor=white" />
-    </td>
-  </tr>
-  <tr>
-    <td><strong>🤖 AI Engineering & Scripting</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/Python_AI_/_LLM-3776AB?style=flat-square&logo=python&logoColor=white" />
-      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-      <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
-      <img src="https://img.shields.io/badge/AI_Agents_/_Automation-00c853?style=flat-square" />
-      <img src="https://img.shields.io/badge/Bash_Shell_Scripting-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" />
-    </td>
-  </tr>
-  <tr>
-    <td><strong>🐳 Containers & Web Infrastructure</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/Docker_Engine-2496ED?style=flat-square&logo=docker&logoColor=white" />
-      <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square" />
-      <img src="https://img.shields.io/badge/Nginx_Reverse_Proxy-009639?style=flat-square&logo=nginx&logoColor=white" />
-      <img src="https://img.shields.io/badge/GitHub_Actions_CI_/_CD-2088FF?style=flat-square&logo=github-actions&logoColor=white" />
-      <img src="https://img.shields.io/badge/Ansible_(IaC)-EE0000?style=flat-square&logo=ansible&logoColor=white" />
-    </td>
-  </tr>
-  <tr>
-    <td><strong>🛡️ Security, Networking & Management</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/OpenSSL_/_TLS_1.3-721412?style=flat-square&logo=openssl&logoColor=white" />
-      <img src="https://img.shields.io/badge/WireGuard_VPN-88171A?style=flat-square&logo=wireguard&logoColor=white" />
-      <img src="https://img.shields.io/badge/Cloudflare_DDoS_/_DNS-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
-      <img src="https://img.shields.io/badge/IPTables_/_UFW_Firewall-FFA000?style=flat-square" />
-      <img src="https://img.shields.io/badge/Systems_Management-262577?style=flat-square" />
-    </td>
-  </tr>
-</table>
+| Domain & Core Competency | Execution Index | Production Scope & Key Deliverables | Core Toolchain |
+| :--- | :---: | :--- | :--- |
+| **📬 End-to-End Enterprise Mail** | `████████████████████` **Expert (100%)** | • Multi-domain Zimbra Collaboration Suite & Postfix MTA cluster architecture<br/>• Strict deliverability: Automated SPF, DKIM (2048-bit), DMARC & PTR records<br/>• Zero-downtime Let's Encrypt automated certificate renewals & deployments<br/>• In-depth antispam/antivirus filtering, storage quotas & mailbox migration | `Zimbra` `Postfix` `Let's Encrypt` `OpenSSL` `DMARC/DKIM` |
+| **🐧 Linux Server & OS Engineering** | `████████████████████` **Expert (100%)** | • Comprehensive administration across CentOS, RHEL, Ubuntu Server & Debian<br/>• OS performance tuning, systemd daemon management & storage optimization<br/>• OS-level hardening, root segregation, SSH Bastion & kernel sysctl tuning | `CentOS` `RHEL` `Ubuntu` `Debian` `Systemd` `Sysctl` |
+| **⚡ Production Scripting & DevOps** | `██████████████████░░` **Senior (95%)** | • Advanced Bash Shell automation pipelines & Python sysadmin scripts<br/>• Headless Linux Cron jobs, automated hot backups & unattended maintenance<br/>• Docker containerization, Docker Compose stacks & Nginx reverse proxies<br/>• Automated CI/CD deployment pipelines via GitHub Actions & Ansible playbooks | `Bash` `Python` `Docker` `Nginx` `GitHub Actions` `Ansible` |
+| **🤖 AI Engineering & Automation** | `████████████████░░░░` **Advanced (85%)** | • Integration of LLM APIs & autonomous AI scripting agents into operations<br/>• Intelligent system log analysis, automated root-cause detection & alerting<br/>• Machine learning pipelines & automation tools using PyTorch & TensorFlow | `Python` `PyTorch` `TensorFlow` `LLM APIs` `AI Agents` |
+| **🛡️ Security & Systems Management** | `████████████████░░░░` **Lead (85%)** | • Network perimeter defense: Multi-tier IPTables/UFW firewalls & WireGuard VPN<br/>• Edge caching, DNS management & Web Application Firewall (WAF) via Cloudflare<br/>• Uptime governance, SLA management (99.999%), DR planning & incident audits | `WireGuard` `Cloudflare` `IPTables` `SLA/DR` `Security Audits` |
 
 ---
 
