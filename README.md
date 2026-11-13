@@ -1,18 +1,18 @@
 <div align="center">
 
-  <!-- Cinematic Isometric Hero Animation -->
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700" alt="Artistic Workspace" />
+  <!-- Cinematic Isometric Workspace Hero -->
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700" alt="Workspace Animation" />
 
   <br/><br/>
 
-  <!-- Dynamic Typing Terminal Header -->
+  <!-- Dynamic Typing Header -->
   <a href="https://github.com/0xAndyNew">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=25&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&height=55&lines=Hi%2C+I'm+Andy+(0xAndyNew)+%E2%9A%A1;Systems+%26+Cloud+Infrastructure+Engineer;Linux+Hardening+%E2%80%A2+Mail+Clusters+%E2%80%A2+DevOps;Architecting+Resilient+%26+Automated+Environments" alt="Typing Terminal" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=620&height=50&lines=Hi%2C+I'm+Andy+(0xAndyNew)+%E2%9A%A1;Systems+%26+Cloud+Infrastructure+Engineer;Linux+Hardening+%E2%80%A2+Mail+Clusters+%E2%80%A2+DevOps;Automating+Resilient+%26+Zero-Trust+Environments" alt="Typing Terminal" />
   </a>
 
   <p align="center">
     <strong>Systems Administrator & Cloud Infrastructure Engineer</strong><br/>
-    Specializing in Linux server management, high-availability architecture, infrastructure automation, and network security hardening.
+    Specializing in high-availability Linux architecture, enterprise mail clusters, automated PKI/SSL lifecycles, and network security hardening.
   </p>
 
   <!-- Status & Quick Badges -->
@@ -21,35 +21,42 @@
       <img src="https://img.shields.io/badge/Email-Direct_Contact-38BDF8?style=for-the-badge&logo=minutemailer&logoColor=white" alt="Email" />
     </a>
     <a href="https://github.com/0xAndyNew">
-      <img src="https://img.shields.io/badge/GitHub-0xAndyNew-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+      <img src="https://img.shields.io/badge/Identity-0xAndyNew-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
     </a>
     <img src="https://komarev.com/ghpvc/?username=0xAndyNew&label=PROFILE_VIEWS&style=for-the-badge&color=38bdf8" alt="Profile Views" />
-    <img src="https://img.shields.io/badge/Status-Online_%26_Open_to_Build-00c853?style=for-the-badge" alt="Status" />
+    <img src="https://img.shields.io/badge/Status-Online_%26_Building-00c853?style=for-the-badge" alt="Status" />
   </p>
 
 </div>
 
 ---
 
-### 🎯 Professional Summary & Career Orientation
+### 💻 System Telemetry & Identity
 
 ```bash
-andy@0xAndyNew:~$ cat /etc/profile.d/vision.sh
-# -----------------------------------------------------------------------
-# IDENTITY      : Andy (0xAndyNew)
-# ROLE          : Systems Administrator / Infrastructure & DevOps Engineer
-# EXPERTISE     : Enterprise Linux, Mail Clusters, Zero-Downtime SSL Automation
-# TARGET        : 99.999% Service Availability • Zero-Trust Security Perimeter
-# METHODOLOGY   : "If a task is executed more than once, automate it."
-# -----------------------------------------------------------------------
+andy@0xAndyNew:~$ neofetch --profile
+-----------------------------------
+OS          : Linux Enterprise (CentOS • RHEL • Ubuntu • Debian)
+Role        : Systems Administrator & Cloud Infrastructure Engineer
+Core Stack  : Linux, Bash, Python, Zimbra, Nginx, Docker, OpenSSL
+Specialties : Mail Infrastructure • SSL/TLS Auto-Lifecycle • Server Hardening
+Security    : Zero-Trust Perimeter • WireGuard VPN • IPTables Firewall
+Uptime      : 99.999% Service Availability Target
+Location    : Vietnam 🇻🇳
 ```
-
-* **Career Direction:** Aiming toward **Senior Infrastructure & Cloud Architect**, focusing on architecting and orchestrating resilient, production-grade server fleets, transitioning manual operations into Infrastructure as Code (IaC), and containerized microservices.
-* **Core Competencies:** Linux kernel tuning & hardening (CentOS / RHEL / Ubuntu / Debian), high-availability enterprise mail clusters (Zimbra Collaboration / Postfix), zero-downtime PKI/SSL automated certificate lifecycles, and perimeter network defense.
 
 ---
 
-### 🎛️ Technical Skills & Competencies
+### 🛠️ Technical Stack & Tooling
+
+<div align="center">
+  <p><em>Curated technologies & toolchains powering production environments:</em></p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=linux,ubuntu,debian,bash,python,nginx,docker,cloudflare,git,githubactions,ansible,openssl&perline=6&theme=dark" alt="Skill Icons Dark" />
+  </a>
+</div>
+
+<br/>
 
 <table width="100%">
   <tr>
@@ -103,109 +110,6 @@ andy@0xAndyNew:~$ cat /etc/profile.d/vision.sh
     </td>
   </tr>
 </table>
-
-<br/>
-
-<div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=linux,ubuntu,debian,bash,python,docker,nginx,cloudflare,git,githubactions,ansible,openssl&perline=12&theme=dark" alt="Skill Icons Dark" />
-  </a>
-</div>
-
----
-
-### 📊 Git Projects & Activity Analytics
-
-<div align="center">
-  <!-- Dynamic Project Activity Wave Chart -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=0xAndyNew&theme=tokyo-night&bg_color=0d1117&color=38bdf8&line=38bdf8&point=ffffff&area=true&hide_border=false&border_radius=12" width="100%" alt="Git Project Activity Wave" />
-</div>
-
-<br/>
-
-<div align="center">
-  <table border="0" style="border-collapse: collapse; margin: auto;">
-    <tr>
-      <td align="center">
-        <!-- Overall Project Stats -->
-        <img src="https://github-readme-stats.vercel.app/api?username=0xAndyNew&show_icons=true&theme=tokyonight&hide_border=false&border_radius=12&border_color=38bdf8&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8&bg_color=0d1117" height="175" alt="Overall Project Stats" />
-      </td>
-      <td align="center">
-        <!-- Language Distribution Across Projects -->
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xAndyNew&layout=compact&theme=tokyonight&hide_border=false&border_radius=12&border_color=38bdf8&title_color=38bdf8&text_color=94a3b8&bg_color=0d1117" height="175" alt="Top Languages Across Projects" />
-      </td>
-    </tr>
-  </table>
-</div>
-
----
-
-### 🚀 Featured Production Repositories
-
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h4>📦 <a href="https://github.com/0xAndyNew">certbot-zimbra-autossl</a></h4>
-      <p>Automated Let's Encrypt renewal pipeline & zero-downtime certificate deployment for Zimbra Mail & Nginx Reverse Proxy.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" />
-        <img src="https://img.shields.io/badge/PKI-Certbot-003A70?style=flat-square" />
-        <img src="https://img.shields.io/badge/Status-Production-38BDF8?style=flat-square" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🛡️ <a href="https://github.com/0xAndyNew">linux-server-hardening</a></h4>
-      <p>Automated security baseline hardening scripts for CentOS, RHEL & Ubuntu (Sysctl, SSH Bastion, IPTables ruleset).</p>
-      <p>
-        <img src="https://img.shields.io/badge/OS-Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
-        <img src="https://img.shields.io/badge/Security-Zero_Trust-2496ED?style=flat-square" />
-        <img src="https://img.shields.io/badge/Status-Active-00c853?style=flat-square" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>📬 <a href="https://github.com/0xAndyNew">zimbra-high-deliverability</a></h4>
-      <p>Enterprise mail optimization kit: Automated DNS records generator (SPF, DKIM 2048-bit, strict DMARC enforcement).</p>
-      <p>
-        <img src="https://img.shields.io/badge/Mail-Zimbra-FF6600?style=flat-square&logo=minutemailer&logoColor=white" />
-        <img src="https://img.shields.io/badge/DNS-DKIM%20%2F%20DMARC-38BDF8?style=flat-square" />
-        <img src="https://img.shields.io/badge/Status-Tested-blue?style=flat-square" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🐳 <a href="https://github.com/0xAndyNew">docker-infra-stacks</a></h4>
-      <p>Production-ready Docker Compose stacks for Nginx reverse proxy, WireGuard VPN tunnels, and monitoring daemons.</p>
-      <p>
-        <img src="https://img.shields.io/badge/DevOps-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-        <img src="https://img.shields.io/badge/Network-WireGuard-88171A?style=flat-square&logo=wireguard&logoColor=white" />
-        <img src="https://img.shields.io/badge/Status-Maintained-brightgreen?style=flat-square" />
-      </p>
-    </td>
-  </tr>
-</table>
-
----
-
-### 🔄 GitOps & Deployment Pipeline
-
-```mermaid
-gitGraph
-    commit id: "v1.0-baseline"
-    branch feature/security-hardening
-    checkout feature/security-hardening
-    commit id: "sysctl-audit"
-    commit id: "iptables-rules"
-    checkout main
-    merge feature/security-hardening id: "merge-hardening" tag: "v1.1"
-    branch feature/auto-ssl-pipeline
-    checkout feature/auto-ssl-pipeline
-    commit id: "certbot-cron-engine"
-    commit id: "zmcertmgr-deploy-hook"
-    checkout main
-    merge feature/auto-ssl-pipeline id: "merge-ssl" tag: "v1.2"
-    commit id: "prod-cluster-live"
-```
 
 ---
 
