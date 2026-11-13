@@ -1,87 +1,107 @@
 <div align="center">
 
-  <!-- Cinematic Isometric Workspace Hero -->
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700" alt="Workspace Animation" />
-
-  <br/><br/>
-
-  <!-- Dynamic Typing Header -->
+  <!-- Dynamic Typing Header Banner -->
   <a href="https://github.com/0xAndyNew">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&height=50&lines=Hi%2C+I'm+Andy+(0xAndyNew)+%E2%9A%A1;Systems+%26+Cloud+Infrastructure+Engineer;End-to-End+Mail+Clusters+%E2%80%A2+AI+Coding+%E2%80%A2+Scripting;Automating+Resilient+%26+Zero-Trust+Environments" alt="Typing Terminal" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=25&duration=2600&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&height=55&lines=Hi%2C+I'm+Andy+(0xAndyNew)+%E2%9A%A1;Hybrid+Systems+Administrator+%26+Infrastructure+Lead;Windows+Server+%E2%80%A2+Enterprise+Linux+%E2%80%A2+Zimbra+Mail;AI-Powered+Automation+%E2%80%A2+PowerShell+%26+Bash+Scripting" alt="Typing Terminal" />
   </a>
 
   <p align="center">
-    <strong>Systems Administrator • Infrastructure Operations Lead • AI & Automation Engineer</strong><br/>
-    Specializing in end-to-end enterprise mail architecture, Linux server hardening, AI-driven automation scripting, and high-availability operations.
+    <strong>Hybrid Infrastructure Engineer • Enterprise Mail Architect • AI & Automation Developer</strong><br/>
+    Orchestrating mission-critical Windows Server & Linux ecosystems, end-to-end enterprise mail clusters, and autonomous AI-driven automation pipelines.
   </p>
 
-  <!-- Status & Quick Badges -->
+  <!-- Core Ecosystem Badges -->
   <p align="center">
     <a href="mailto:179321164+0xAndyNew@users.noreply.github.com">
-      <img src="https://img.shields.io/badge/Email-Direct_Contact-38BDF8?style=for-the-badge&logo=minutemailer&logoColor=white" alt="Email" />
+      <img src="https://img.shields.io/badge/Contact-Direct_Mail-38BDF8?style=flat-square&logo=minutemailer&logoColor=white" alt="Email" />
     </a>
-    <a href="https://github.com/0xAndyNew">
-      <img src="https://img.shields.io/badge/Identity-0xAndyNew-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-    </a>
-    <img src="https://komarev.com/ghpvc/?username=0xAndyNew&label=PROFILE_VIEWS&style=for-the-badge&color=38bdf8" alt="Profile Views" />
-    <img src="https://img.shields.io/badge/Status-Online_%26_Building-00c853?style=for-the-badge" alt="Status" />
+    <img src="https://img.shields.io/badge/Platforms-Windows_Server_%7C_Linux-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Platforms" />
+    <img src="https://img.shields.io/badge/Mail_Core-Zimbra_Enterprise-FF6F00?style=flat-square&logo=gmail&logoColor=white" alt="Zimbra" />
+    <img src="https://img.shields.io/badge/Scripting-PowerShell_%26_Bash-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell" />
+    <img src="https://img.shields.io/badge/AI_Engine-Python_%26_LLM-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python AI" />
+    <img src="https://img.shields.io/badge/SLA-99.999%25_Availability-00C853?style=flat-square" alt="SLA" />
+    <img src="https://komarev.com/ghpvc/?username=0xAndyNew&label=VIEWS&style=flat-square&color=38bdf8" alt="Profile Views" />
   </p>
 
 </div>
 
 ---
 
-### 💻 System Telemetry & Identity
+### 🏛️ Engineering Architecture & Core Competencies
 
-```bash
-andy@0xAndyNew:~$ neofetch --profile
------------------------------------
-OS          : Linux Enterprise (CentOS • RHEL • Ubuntu • Debian)
-Role        : Systems Administrator • Infrastructure Operations Lead • AI Developer
-Core Stack  : Linux, Bash, Python, AI/ML, Zimbra, Nginx, Docker, OpenSSL
-Specialties : Full Mail Infrastructure • AI Automation • Server Hardening
-Management  : High-Availability SLA • Incident Response • Security Audits
-Uptime      : 99.999% Service Availability Target
-Location    : Vietnam 🇻🇳
-```
+<table width="100%" border="0">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🪟 Windows Server & Enterprise Infrastructure</h4>
+      <p>
+        Full-lifecycle Windows Server operations across 2016/2019/2022/2025 editions. Administration of Active Directory Domain Services (AD DS), Group Policy (GPO), DNS, DHCP, Hyper-V virtualization, IIS web hosting, Windows Defender Firewall hardening, and WSUS patch management.
+      </p>
+      <p>
+        <code>Windows Server</code> <code>Active Directory</code> <code>Hyper-V</code> <code>IIS</code> <code>GPO</code> <code>WSUS</code>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🐧 Enterprise Linux & System Hardening</h4>
+      <p>
+        Production server administration across CentOS, RHEL, Ubuntu Server, and Debian. Kernel parameter optimization (sysctl), systemd daemon management, logical volume management (LVM), root privilege segregation, SSH bastion security, and unattended security patching.
+      </p>
+      <p>
+        <code>RHEL</code> <code>CentOS</code> <code>Ubuntu</code> <code>Debian</code> <code>Systemd</code> <code>LVM</code> <code>Sysctl</code>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>📬 End-to-End Enterprise Mail Systems</h4>
+      <p>
+        Architecting robust Zimbra Collaboration Suite and Postfix MTA mail clusters. Guaranteeing 100% email deliverability with automated SPF, DKIM (2048-bit), DMARC, and PTR reverse DNS records. Automated zero-downtime Let's Encrypt SSL/TLS deployment via certbot and zmcertmgr.
+      </p>
+      <p>
+        <code>Zimbra Suite</code> <code>Postfix</code> <code>Let's Encrypt</code> <code>OpenSSL</code> <code>DKIM/DMARC</code>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🤖 AI Automation & Cross-Platform Scripting</h4>
+      <p>
+        Engineering production automation workflows using Python, PowerShell, and Bash. Integrating Large Language Model (LLM) APIs, autonomous scripting agents, automated log parsing, proactive incident alerting, scheduled tasks, and containerized Docker services behind Nginx.
+      </p>
+      <p>
+        <code>PowerShell</code> <code>Bash</code> <code>Python</code> <code>AI/LLM APIs</code> <code>Docker</code> <code>Nginx</code>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### 🛠️ Technical Competency & Execution Matrix
+### 🛠️ Production Tech Stack & Toolchains
 
 <div align="center">
-  <p><em>Curated technologies & toolchains powering production environments:</em></p>
+  <p><em>Multi-platform technologies actively deployed across production environments:</em></p>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=linux,ubuntu,debian,bash,python,pytorch,tensorflow,nginx,docker,cloudflare,git,githubactions,ansible,openssl&perline=7&theme=dark" alt="Skill Icons Dark" />
+    <img src="https://skillicons.dev/icons?i=windows,linux,ubuntu,debian,powershell,bash,python,pytorch,tensorflow,docker,nginx,cloudflare,git,githubactions&perline=7&theme=dark" alt="Skill Icons" />
   </a>
 </div>
 
 <br/>
 
-| Domain & Core Competency | Execution Index | Production Scope & Key Deliverables | Core Toolchain |
-| :--- | :---: | :--- | :--- |
-| **📬 End-to-End Enterprise Mail** | `████████████████████` **Expert (100%)** | • Multi-domain Zimbra Collaboration Suite & Postfix MTA cluster architecture<br/>• Strict deliverability: Automated SPF, DKIM (2048-bit), DMARC & PTR records<br/>• Zero-downtime Let's Encrypt automated certificate renewals & deployments<br/>• In-depth antispam/antivirus filtering, storage quotas & mailbox migration | `Zimbra` `Postfix` `Let's Encrypt` `OpenSSL` `DMARC/DKIM` |
-| **🐧 Linux Server & OS Engineering** | `████████████████████` **Expert (100%)** | • Comprehensive administration across CentOS, RHEL, Ubuntu Server & Debian<br/>• OS performance tuning, systemd daemon management & storage optimization<br/>• OS-level hardening, root segregation, SSH Bastion & kernel sysctl tuning | `CentOS` `RHEL` `Ubuntu` `Debian` `Systemd` `Sysctl` |
-| **⚡ Production Scripting & DevOps** | `██████████████████░░` **Senior (95%)** | • Advanced Bash Shell automation pipelines & Python sysadmin scripts<br/>• Headless Linux Cron jobs, automated hot backups & unattended maintenance<br/>• Docker containerization, Docker Compose stacks & Nginx reverse proxies<br/>• Automated CI/CD deployment pipelines via GitHub Actions & Ansible playbooks | `Bash` `Python` `Docker` `Nginx` `GitHub Actions` `Ansible` |
-| **🤖 AI Engineering & Automation** | `████████████████░░░░` **Advanced (85%)** | • Integration of LLM APIs & autonomous AI scripting agents into operations<br/>• Intelligent system log analysis, automated root-cause detection & alerting<br/>• Machine learning pipelines & automation tools using PyTorch & TensorFlow | `Python` `PyTorch` `TensorFlow` `LLM APIs` `AI Agents` |
-| **🛡️ Security & Systems Management** | `████████████████░░░░` **Lead (85%)** | • Network perimeter defense: Multi-tier IPTables/UFW firewalls & WireGuard VPN<br/>• Edge caching, DNS management & Web Application Firewall (WAF) via Cloudflare<br/>• Uptime governance, SLA management (99.999%), DR planning & incident audits | `WireGuard` `Cloudflare` `IPTables` `SLA/DR` `Security Audits` |
+| Tier | Ecosystem & Toolchain Components |
+| :--- | :--- |
+| **Operating Systems** | Windows Server (2016-2025), Windows 10/11, CentOS, Red Hat Enterprise Linux (RHEL), Ubuntu Server, Debian |
+| **Directory & Virtualization** | Active Directory (AD DS), Group Policy Objects (GPO), Hyper-V, VMware ESXi, Docker Engine, Docker Compose |
+| **Mail Infrastructure** | Zimbra Collaboration Suite (ZCS), Postfix MTA, Dovecot, Certbot Automation, zmcertmgr, SpamAssassin |
+| **Scripting & AI Automation** | Windows PowerShell 5.1/7+, Linux Bash, Python 3, PyTorch, TensorFlow, LLM APIs, Scheduled Tasks, Systemd Timers |
+| **Web & Edge Security** | Nginx Reverse Proxy, Microsoft IIS, Cloudflare WAF & Edge DNS, WireGuard VPN, IPTables / Windows Firewall |
 
 ---
 
-### 📊 Git Telemetry & Workload Distribution
+### 📊 Operational Telemetry & Workload Distribution
 
 <div align="center">
 
-  <!-- Live GitHub Project & Commit Indicators -->
-  <p align="center">
-    <img src="https://img.shields.io/badge/Total_Contributions-Live_Sync-38BDF8?style=for-the-badge&logo=git&logoColor=white" alt="Contributions" />
-    <img src="https://img.shields.io/badge/Public_Repositories-Active-2496ED?style=for-the-badge&logo=github&logoColor=white" alt="Public Repos" />
-    <img src="https://img.shields.io/badge/Uptime_Target-99.999%25-00c853?style=for-the-badge" alt="Uptime" />
-  </p>
-
-  <!-- GitHub Streak & Contribution Analytics (demolab.com server) -->
+  <!-- Live GitHub Streak Analytics -->
   <a href="https://github.com/0xAndyNew">
-    <img src="https://streak-stats.demolab.com?user=0xAndyNew&theme=tokyonight&hide_border=false&border_radius=12&border=38bdf8&background=0d1117&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8&sideNums=38bdf8&sideLabels=94a3b8&dates=94a3b8" width="100%" alt="GitHub Commit & Streak Stats" />
+    <img src="https://streak-stats.demolab.com?user=0xAndyNew&theme=tokyonight&hide_border=false&border_radius=12&border=38bdf8&background=0b0f19&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8&sideNums=38bdf8&sideLabels=94a3b8&dates=94a3b8" width="100%" alt="GitHub Streak Stats" />
   </a>
 
 </div>
@@ -89,31 +109,29 @@ Location    : Vietnam 🇻🇳
 <br/>
 
 ```mermaid
-pie title Engineering Domains & Operational Allocation
-    "End-to-End Enterprise Mail Infrastructure" : 30
-    "Linux Systems & Server Architecture" : 25
-    "Automation & Production Scripting (Bash / Python)" : 20
-    "AI Development & Intelligent Automation" : 15
-    "Systems & Infrastructure Management" : 10
+pie title Operational Engineering Focus
+    "Enterprise Mail Infrastructure (Zimbra / Postfix / Deliverability)" : 28
+    "Enterprise Linux Engineering (RHEL / CentOS / Ubuntu)" : 22
+    "Windows Server & Active Directory Infrastructure" : 20
+    "Cross-Platform Automation (PowerShell & Bash Scripting)" : 18
+    "AI Development & Intelligent System Tooling" : 12
 ```
 
 ---
 
-### 📬 Connect With Me
+### 📬 Connect & Direct Inquiries
 
 <div align="center">
 
   <a href="mailto:179321164+0xAndyNew@users.noreply.github.com">
-    <img src="https://img.shields.io/badge/Direct_Mail-179321164+0xAndyNew-38BDF8?style=for-the-badge&logo=minutemailer&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-179321164+0xAndyNew@users.noreply.github.com-38BDF8?style=for-the-badge&logo=minutemailer&logoColor=white" alt="Email" />
   </a>
+  &nbsp;&nbsp;
   <a href="https://github.com/0xAndyNew">
-    <img src="https://img.shields.io/badge/GitHub_Profile-0xAndyNew-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-0xAndyNew-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 
-</div>
+  <br/><br/>
+  <sub>⚡ Engineered with precision for <strong>0xAndyNew</strong> • Dual-OS Systems, Mail Infrastructure & AI Automation</sub>
 
-<br/>
-
-<div align="center">
-  <sub>🛡️ Architected with precision for <strong>0xAndyNew</strong> • Resilient Infrastructure, Mail Systems & AI Engineering</sub>
 </div>
